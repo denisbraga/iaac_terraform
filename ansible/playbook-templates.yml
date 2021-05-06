@@ -1,0 +1,10 @@
+- hosts: local
+  vars:
+    var_do_playbook: 'Denis'
+    lista_do_playbook: ["Amarelo", "Vermelho", "Preto"]
+
+  tasks:
+     - name: Criando um template
+       template:
+         src: /vagrant/ansible/roles/webserver/templates/template.j2
+         dest: /tmp/template_impacta.txt

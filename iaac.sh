@@ -5,6 +5,7 @@
 apt update
 apt dist-upgrade -y
 apt install git git-flow docker.io docker-compose -y
+apt install ansible sshpass -y
 
 # Ansible
 apt install ansible sshpass -y
