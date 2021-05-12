@@ -4,3 +4,6 @@ denisbraga-cloudautomation-233abb2969a5.json
 .backup
 *.swp
 *.swo
+gcp-compute-key.pub
+gcp-compute-key
+*.rar
