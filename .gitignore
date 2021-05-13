@@ -1,5 +1,5 @@
 .vagrant
-denisbraga-cloudautomation-233abb2969a5.json
+*.json
 *.log
 .backup
 *.swp
